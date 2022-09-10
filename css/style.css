@@ -140,7 +140,7 @@ a {
 /* About */
 #about {
 	padding: px 0;
-	background: #ffffff;
+	background: rgb(14, 14, 14);
 }
 
 .about-row {
@@ -149,7 +149,6 @@ a {
 
 .about-row-experience,
 .about-row-me {
-	
 	width: 50%;
 	padding-left: 50px;
 }
