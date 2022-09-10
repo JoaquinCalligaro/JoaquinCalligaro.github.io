@@ -11,6 +11,7 @@
 /* Main Styling */
 html,
 body {
+	background-color: rgb(14, 14, 14);
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -108,13 +109,14 @@ a {
 /* Showcase */
 #showcase {
 	
-	background: url('/img/showcase.jpeg');
+	background: url('/img/showcase.jpg');
+	height: 800px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 500px;
 	text-align: center;
 	padding: 100px;
+	display: flex;
 	 
 }
 
@@ -147,6 +149,7 @@ a {
 
 .about-row-experience,
 .about-row-me {
+	
 	width: 50%;
 	padding-left: 50px;
 }
